@@ -1,0 +1,106 @@
+[
+  {
+    "name": "European Robin",
+    "region": "Europe, temperate forests and gardens",
+    "behavior": "Territorial, active at dawn, sings melodically",
+    "appearance": "Small bird with an orange breast and brownish-gray back",
+    "egg_info": {
+      "shape": "Oval",
+      "color": "White with reddish speckles",
+      "clutch_size": "4–6 eggs"
+    },
+    "image": "image_1",
+    "notes": "Often seen in early spring, very vocal at dawn."
+  },
+  {
+    "name": "Herring Gull",
+    "region": "Coastal areas of Europe and North America",
+    "behavior": "Omnivorous, aggressive when defending its nest",
+    "appearance": "Large, with gray back, white belly, and yellow bill with a red spot",
+    "egg_info": {
+      "shape": "Pyriform",
+      "color": "Olive-green with dark blotches",
+      "clutch_size": "2–3 eggs"
+    },
+    "image": "image_2",
+    "notes": "Common at coastal locations, especially around fishing harbors."
+  },
+  {
+    "name": "Eurasian Jay",
+    "region": "Forests of Europe and Asia",
+    "behavior": "Cautious, mimics other birds' calls",
+    "appearance": "Reddish-brown with blue patches on the wings and a black 'moustache'",
+    "egg_info": {
+      "shape": "Oval",
+      "color": "Bluish-green with fine speckles",
+      "clutch_size": "4–7 eggs"
+    },
+    "image": "image_3",
+    "notes": "Rarely seen in the open, prefers dense woodland areas."
+  },
+  {
+    "name": "Eurasian Wren",
+    "region": "Eurasia, from forests to gardens",
+    "behavior": "Very active, sings loudly despite its small size",
+    "appearance": "Tiny brown bird with an upright tail",
+    "egg_info": {
+      "shape": "Small oval",
+      "color": "White with reddish dots",
+      "clutch_size": "5–8 eggs"
+    },
+    "image": "image_4",
+    "notes": "Easily overlooked due to size, but very loud and active."
+  },
+  {
+    "name": "White Wagtail",
+    "region": "Eurasia, often near water",
+    "behavior": "Runs quickly, constantly wagging its tail",
+    "appearance": "Black and white with a gray back and long tail",
+    "egg_info": {
+      "shape": "Oval",
+      "color": "Grayish-white with light speckling",
+      "clutch_size": "5–6 eggs"
+    },
+    "image": "image_5",
+    "notes": "Frequently seen near streams and rivers, always on the move."
+  },
+  {
+    "name": "Great Spotted Woodpecker",
+    "region": "Forests of Europe and Asia",
+    "behavior": "Pecks at tree trunks, most active in the morning",
+    "appearance": "Black and white with a red patch on the head (males and juveniles)",
+    "egg_info": {
+      "shape": "Oval",
+      "color": "White and smooth, laid in a tree hole",
+      "clutch_size": "4–7 eggs"
+    },
+    "image": "image_6",
+    "notes": "Recognizable by its rhythmic drumming on trees."
+  },
+  {
+    "name": "Eurasian Skylark",
+    "region": "Fields and meadows of Europe and Asia",
+    "behavior": "Soars high while singing in flight",
+    "appearance": "Brownish-gray with longitudinal streaks, rather inconspicuous",
+    "egg_info": {
+      "shape": "Oval",
+      "color": "Brownish-gray with dense speckling",
+      "clutch_size": "3–5 eggs"
+    },
+    "image": "image_7",
+    "notes": "Best observed during early morning in open fields."
+  },
+  {
+    "name": "Tawny Owl",
+    "region": "European forests",
+    "behavior": "Nocturnal, hunts small rodents",
+    "appearance": "Large with a round head and gray-brown plumage",
+    "egg_info": {
+      "shape": "Nearly spherical",
+      "color": "White",
+      "clutch_size": "2–4 eggs"
+    },
+    "image": "image_8",
+    "notes": "Heard more often than seen, distinctive hooting at night."
+  }
+]

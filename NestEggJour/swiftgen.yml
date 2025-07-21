@@ -1,0 +1,7 @@
+## Fonts ##
+ fonts:
+  inputs:
+     - NestEggJour/Fonts
+  outputs:
+     - templateName: swift5
+       output: NestEggJour/Generated/Fonts+Generated.swift

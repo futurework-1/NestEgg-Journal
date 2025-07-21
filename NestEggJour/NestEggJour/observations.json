@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Dawn Song by the Lake",
+        "location": "Karynskoye Lake",
+        "coordinates": "56.8412\u00b0 N, 38.1023\u00b0 E",
+        "date": "2025-04-30",
+        "image": "image_9",
+        "description": "Woke up to birdsong. Near the reeds, I spotted a robin. It sat in one place for a long time, singing loudly. I watched it quietly for almost an hour."
+    },
+    {
+        "title": "Unexpected Find in the Park",
+        "location": "Leskov Park, Tver",
+        "coordinates": "56.8595\u00b0 N, 35.9118\u00b0 E",
+        "date": "2025-05-12",
+        "image": "image_10",
+        "description": "While walking through the park, I stumbled upon a small pale blue egg\u2014likely a thrush's. There was no visible nest nearby. I made sure not to disturb it."
+    },
+    {
+        "title": "Nest in the Old Spruce",
+        "location": "Spruce Forest by the Dacha, Moscow Region",
+        "coordinates": "55.7234\u00b0 N, 37.2581\u00b0 E",
+        "date": "2025-05-16",
+        "image": "image_11",
+        "description": "Deep in the spruce woods I found a nest with three speckled beige eggs. Based on the size and position, I think it belongs to a tit. I\u2019ll keep observing from a distance."
+    },
+    {
+        "title": "First Starling of the Season",
+        "location": "Southern Field, Tula Region",
+        "coordinates": "54.1872\u00b0 N, 37.6214\u00b0 E",
+        "date": "2025-03-28",
+        "image": "image_12",
+        "description": "A starling has arrived \u2014 early this year. It was singing from a power line on the field\u2019s edge. What a joy to see the first returning bird of spring."
+    },
+    {
+        "title": "Nest Under the Barn Roof",
+        "location": "Klyuchi Village, Pskov Region",
+        "coordinates": "57.5229\u00b0 N, 28.3041\u00b0 E",
+        "date": "2025-06-09",
+        "image": "image_13",
+        "description": "A pair of swallows are building a nest under the barn roof. They're flying back and forth with straw and mud. I\u2019ve logged the location and will follow their progress."
+    },
+    {
+        "title": "Eggs on the Riverbank",
+        "location": "Tura River, Tyumen Region",
+        "coordinates": "57.1674\u00b0 N, 65.5733\u00b0 E",
+        "date": "2025-05-02",
+        "image": "image_14",
+        "description": "I found four eggs right out in the open \u2014 no nest. Most likely gulls or sandpipers. They were well-camouflaged among the pebbles. I took a photo and carefully stepped away."
+    }
+]
