@@ -259,7 +259,11 @@ struct CustomTextFieldStyle: TextFieldStyle {
             .padding()
             .background(
                 RoundedRectangle(cornerRadius: 12)
-                    .foregroundColor(.clear)
+                    .foregroundColor(Color.appLight.opacity(0.9))
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 12)
+                            .stroke(Color.appBrown.opacity(0.3), lineWidth: 1)
+                    )
             )
             .font(FontFamily.PlayfairDisplay.semiBold.swiftUIFont(size: 16))
             .foregroundColor(.appBrown)

@@ -43,7 +43,7 @@ struct CustomTabBar: View {
                 .frame(maxWidth: .infinity)
             }
         }
-        .background(Color("appBrown").opacity(0.8))
+        .background(Color(hex:"4B2200"))
     }
     
     private func getImageName(for index: Int, isSelected: Bool) -> String {
@@ -61,11 +61,45 @@ struct TabBarButton: View {
         Button(action: action) {
             Image(imageName)
                 .resizable()
-                .frame(width: 50, height: 50)
+                .scaledToFit()
+                .frame(height: 42)
         }
     }
 }
 
 #Preview {
     TabBarView()
+}
+
+extension Color {
+    init(hex: String) {
+        let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
+        var int: UInt64 = 0
+        Scanner(string: hex).scanHexInt64(&int)
+        
+        let red, green, blue, alpha: Double
+        
+        switch hex.count {
+        case 3:
+            red = Double((int >> 8) & 0xF) / 15.0
+            green = Double((int >> 4) & 0xF) / 15.0
+            blue = Double(int & 0xF) / 15.0
+            alpha = 1.0
+        case 6:
+            red = Double((int >> 16) & 0xFF) / 255.0
+            green = Double((int >> 8) & 0xFF) / 255.0
+            blue = Double(int & 0xFF) / 255.0
+            alpha = 1.0
+        case 8:
+            red = Double((int >> 24) & 0xFF) / 255.0
+            green = Double((int >> 16) & 0xFF) / 255.0
+            blue = Double((int >> 8) & 0xFF) / 255.0
+            alpha = Double(int & 0xFF) / 255.0
+        default:
+            self.init(.black)
+            return
+        }
+        
+        self.init(red: red, green: green, blue: blue, opacity: alpha)
+    }
 }
